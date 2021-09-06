@@ -120,7 +120,7 @@ install(TARGETS astra_test_wrapper
 install(FILES include/openni2_redist/${HOST_PLATFORM}/libOpenNI2.so
         DESTINATION lib/${PROJECT_NAME}
         )
-install(FILES include/openni2_redist/${HOST_PLATFORM}/OpenNI2
+install(DIRECTORY include/openni2_redist/${HOST_PLATFORM}/OpenNI2
         DESTINATION lib/${PROJECT_NAME}
         )
 
